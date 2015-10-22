@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 
 <head>
 
@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Заказать шкаф-купе в Минске</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
@@ -47,13 +47,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">О нас</a>
+                        <a class="page-scroll" href="#about">Примеры работ</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#download">Вызвать дизайнера</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -83,10 +83,16 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>О нашей компании.</h2>
-                <p>Наша компания занимается изготовлением шкафов-купе более 10 лет. Вся мебель производится высококвалифицированным персоналом на немецком оборудовании. </p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <h2>Отличные шкафы от производителя</h2>
+                <p>Наша компания занимается изготовлением шкафов-купе более 10 лет. Все эпапы работ выполняются высококвалифицированным персоналом на немецком оборудовании. </p>
+                <p>На все изделия имеются необходимые сертификаты, заключается официальный договор. </p>
+                <p><a id="start" rel="galery" href="img/galery/1_b.jpg" title="" class="btn btn-default btn-lg galery">Актуальные модели шкафов</a></p>
+                <div style="display: none">
+                    <a rel="galery" class="galery" href="img/galery/2_b.jpg" title="шкаф 2"></a>
+                    <a rel="galery" class="galery" href="img/galery/3_b.jpg" title="шкаф 3"></a>
+                    <a rel="galery" class="galery" href="img/galery/4_b.jpg" title="шкаф 4"></a>
+                    <a rel="galery" class="galery" href="img/galery/5_b.jpg" title="шкаф 5"></a>
+                </div>
             </div>
         </div>
     </section>
@@ -96,48 +102,24 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a rel="" href="#form" class="btn btn-default btn-lg popup">Оформить заказ</a>
+                    <h2>Профессиональный дизайн</h2>
+                    <p>Мы славимся тем, что каждый дизайн проект получается уникальным. </p>
+                    <p>Абсолютно бесплатно к вам приедет наш дизайнер, произведет замеры, просчитает стоимоить.</p>
+                    <a id="go" href="#" class="btn btn-default btn-lg">Вызвать дизайнера</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Form -->
-    <div class="hidden">
-        <form id="form" class="form-horizontal" action="" method="post">
-            <div class="form-group">
-                <input name="name" type="text" class="form-control name" id="inputEmail3" placeholder="Ваше имя" value="<?=$_POST['name']?>">
-            </div>
-            <div class="form-group">
-                <input name="tel" type="text" class="form-control tel" id="inputPassword3" placeholder="Ваш телефон" value="<?=$_POST['tel']?>">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-default">Отправить</button>
-            </div>
-        </form>
-    </div>
-
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+                <h2>Свяжитесь с нами</h2>
+                <p>Мы рады ответить на любой ваш вопрос!</p>
+                <p><a href="mailto:infokonsigma@gmail.com">infokonsigma@gmail.com</a></p>
+                <h3>8 029 6846677</h3>
+                <h3>8 029 7846677</h3>
+                <p><a id="go" href="#" class="btn btn-default btn-lg">Заказать обратный звонок</a>
             </div>
         </div>
     </section>
@@ -148,7 +130,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Copyright &copy; <a href="http://konsigmapack.by" target="_blank">Konsigmapack</a></p>
         </div>
     </footer>
 
@@ -161,14 +143,22 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX7IH7kCqk8yb_caLkaNt7i2EGGLWRSf8&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-
-    <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/common.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
+
+
 
 </body>
 
